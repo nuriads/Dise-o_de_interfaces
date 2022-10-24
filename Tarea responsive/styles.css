@@ -1,0 +1,142 @@
+#uno{
+    background-color: orange;
+    }
+    
+    #dos{
+        background-color:gray;
+        color: white;
+        }
+    
+    #tres{
+        background-color:green;
+        color: white;  
+    }
+    #cuatro{
+        background-color:rgb(0, 183, 255);
+        color: white;
+        }
+    
+    #cinco{
+        background-color:rgb(175, 155, 247);
+        }
+    
+    div{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        padding-left: 0.5rem;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+    div>div{ 
+        font-size: 2.5rem;
+        line-height: 4rem;
+        width: 12rem;
+        height: 4rem;
+
+    }
+    @media only screen and (min-width: 768px) and (max-width:992px){
+        div{
+            margin:0%;
+            margin-bottom: 1rem;
+            display: flex;
+            flex-direction:row;
+            flex-wrap: wrap;
+            max-width: 70%;
+            
+        }
+        div>div{
+            font-size: 2rem;
+            width: 15rem;
+            margin-right: 1rem;
+        }
+    
+        #cinco{
+            color:rgb(175, 155, 247);
+            background-color: white;
+            border:5px solid rgb(175, 155, 247);
+            min-width: 31rem;
+            }
+
+        #tres{
+            color:black
+        }
+    }
+    
+    @media only screen and (min-width: 992px) and (max-width:1200px){
+        #cinco{
+            color:rgb(175, 155, 247);
+            background-color: white;
+            border:5px solid rgb(175, 155, 247);
+            font-size: 2rem;
+            min-width: 18.15rem;
+            height: 3rem;
+            line-height: 3rem;
+            }
+
+        #cuatro{
+            color:rgb(21, 169, 255);
+            background-color: white;
+            border:5px solid rgb(21, 169, 255);
+            font-size: 2rem;
+            min-width: 18.15rem;
+            height: 3rem;
+            line-height: 3rem;
+            }
+
+        #tres{
+                color:black
+            }
+        
+        div{
+            font-size: 5vw;
+            margin:0%;
+            margin-bottom: 1rem;
+            display: flex;
+            flex-direction:row;
+            flex-wrap: wrap;
+            min-width: 70%;
+                
+        }
+
+        div>div{
+            font-size: 2rem;
+            min-width: 10rem;
+            margin-right: 1rem;
+        }
+
+    }
+        @media only screen and (min-width:1200px){
+            div{
+                font-size: 2px;
+                margin:0%;
+                margin-bottom: 1rem;
+                display: flex;
+                flex-direction:row;
+                flex-wrap: wrap;  
+            }
+
+            div>div{
+                line-height: normal;
+                font-size: 1.1rem;
+                max-width: 4.5rem;
+                height:7rem;
+                margin-right: 0.5rem;
+            }
+
+            #cinco{
+                font-size: 2rem;
+                line-height: 6rem;
+                background-color: white;
+                border:5px solid rgb(175, 155, 247);
+                font-size: 2rem;
+                min-width: 31rem;
+                height:6.5rem;
+                }
+
+            #dos, #tres, #cuatro{
+                color: black;
+            }
+        
+        }
+
